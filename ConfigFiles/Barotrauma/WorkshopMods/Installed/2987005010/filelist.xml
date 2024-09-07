@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Malachite" steamworkshopid="2987005010" corepackage="false" modversion="1.14" gameversion="1.1.19.3" installtime="1699411683" expectedhash="14CC2AF6F1779E7210306DB267F1BC6A">
+  <Submarine file="%ModDir%/Malachite.sub" />
+</contentpackage>

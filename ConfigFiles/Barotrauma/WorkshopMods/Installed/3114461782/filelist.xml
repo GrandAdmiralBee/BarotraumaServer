@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Normandy" steamworkshopid="3114461782" corepackage="false" modversion="1.0.505" gameversion="1.4.6.0" installtime="1717264121" expectedhash="AD3A8BD4D1668AE94A2450C5880A4131">
+  <Item file="%ModDir%/Nor-W/Grenades.xml" />
+  <Item file="%ModDir%/Nor-W/Nor_turret.xml" />
+  <Item file="%ModDir%/Nor-W/Nor-ammobox.xml" />
+  <Item file="%ModDir%/Reactor core add/reactor core add.xml" />
+  <Particles file="%ModDir%/ammo/ParticlePrefabs.xml" />
+  <Item file="%ModDir%/Content/Items/Command/command.xml" />
+  <Item file="%ModDir%/Content/Items/Weapons/pulselaser.xml" />
+  <Item file="%ModDir%/Content/Items/Electro com/signalitems.xml" />
+  <Other file="%ModDir%/Content/Items/Command/sonarBlip.png" />
+  <Item file="%ModDir%/Nor-W/Thanix/thanix.xml" />
+  <LevelObjectPrefabs file="%ModDir%/Content/Map/Biomes/Common/CommonLevelObjects.xml" />
+  <Submarine file="%ModDir%/Kadiak.sub" />
+  <Submarine file="%ModDir%/Kadiak RS.sub" />
+  <Item file="%ModDir%/Content/Items/NorStacturePrefub.xml" />
+  <Submarine file="%ModDir%/SSV Normandy.sub" />
+</contentpackage>

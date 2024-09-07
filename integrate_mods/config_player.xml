@@ -1,0 +1,100 @@
+<config
+language="Russian"
+  verboselogging="false"
+  savedebugconsolelogs="false"
+  savepath=""
+  subeditorundobuffer="32"
+  maxautosaves="8"
+  autosaveintervalseconds="300"
+  subeditorbackground="#0D2545"
+  enablesplashscreen="true"
+  pauseonfocuslost="true"
+  aimassistamount="0.05"
+  enablemouselook="true"
+  showenemyhealthbars="ShowAll"
+  chatspeechbubbles="true"
+  interactionlabeldisplaymode="Everything"
+  chatopen="true"
+  crewmenuopen="true"
+  showoffensiveserverprompt="false"
+  tutorialskipwarning="false"
+  corpsedespawndelay="600"
+  corpsespersubdespawnthreshold="5"
+  usedualmodesockets="true"
+  disableingamehints="true"
+  enablesubmarineautosave="true"
+  quickstartsub=""
+  remotemainmenucontenturl="https://www.barotraumagame.com/gamedata/"
+  crossplaychoice="Disabled"
+  savedcampaignsettings="&lt;campaignsettings PresetName=&quot;Normal&quot; TutorialEnabled=&quot;True&quot; RadiationEnabled=&quot;False&quot; MaxMissionCount=&quot;2&quot; WorldHostility=&quot;Medium&quot; StartItemSet=&quot;normal&quot; StartingBalanceAmount=&quot;Medium&quot; CrewVitalityMultiplier=&quot;1&quot; NonCrewVitalityMultiplier=&quot;1&quot; OxygenMultiplier=&quot;1&quot; FuelMultiplier=&quot;1&quot; MissionRewardMultiplier=&quot;1&quot; ShopPriceMultiplier=&quot;1&quot; ShipyardPriceMultiplier=&quot;1&quot; RepairFailMultiplier=&quot;1&quot; ShowHuskWarning=&quot;True&quot; PatdownProbability=&quot;Medium&quot; /&gt;"
+  disableglobalspamlist="false">
+  <contentpackages>
+    <!--Vanilla-->
+    <corepackage
+      path="Content/ContentPackages/Vanilla.xml" />
+    <regularpackages>
+<!-- Meaningful Upgrades -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2183524355"/>
+<!-- Nova VX -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2259833357"/>
+<!-- Taehoon -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2413909645"/>
+<!-- Teardrop -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2479602183"/>
+<!-- [VH] The Iroh -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2602920829"/>
+<!-- BAROTRAUMA — ♂RIGHT VERSION♂ -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2640258820"/>
+<!-- The Peregrine -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2658314680"/>
+<!-- Wreck Locator -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2767049553"/>
+<!-- Flying Duntchman -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2853447944"/>
+<!-- Cruel Accordion -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2857036720"/>
+<!-- Epic accordion -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2876860342"/>
+<!-- BAROTRAUMA — ♂RIGHT GUITAR♂ -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2879930072"/>
+<!-- Harmonica-Free-Bird-solo -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2903734381"/>
+<!-- Coffin -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2912530417"/>
+<!-- Privateer -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2946159217"/>
+<!-- Malachite -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2987005010"/>
+<!-- LEVIATHAN -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/2996417279"/>
+<!-- [JADE]COCO -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/3062701061"/>
+<!-- Normandy -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/3114461782"/>
+<!-- Project 626 Theseus -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/3125940921"/>
+<!-- Archangel [HighFleet Conversion] -->
+<package path="/home/karim/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma/WorkshopMods/Installed/3280202940"/>
+</regularpackages>
+  </contentpackages>
+  <serverfilters
+    FilterSameVersion="True"
+    FilterPassword="False"
+    FilterFullServers="False"
+    FilterEmptyServers="False"
+    FilterOffensiveServers="True"
+    servertag.Serious="True"
+    servertag.Casual="True"
+    servertag.Roleplay="True"
+    servertag.Rampage="True"
+    servertag.SomethingDifferent="True"
+    sandbox="True"
+    mission="True"
+    pvp="True"
+    multiplayercampaign="True"
+    karma="Any"
+    traitors="Any"
+    friendlyfire="Any"
+    voip="Any"
+    modded="Any" />
+</config>

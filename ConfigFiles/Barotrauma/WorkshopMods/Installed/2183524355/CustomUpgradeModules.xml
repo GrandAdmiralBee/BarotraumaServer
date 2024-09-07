@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeModules>
+  <UpgradeCategory identifier="oxygengenerators" items="oxygengenerator" />
+  <UpgradeCategory identifier="dischargecoils" items="dischargecoil" />
+  <!-- Workaroud for non-weapon turrets not being included in periscope upgrades -->
+  <UpgradeCategory identifier="searchlights" items="searchlight" />
+  <UpgradeCategory identifier="cameras" items="camera" />
+  <!-- MONITORS -->
+  <UpgradeModule identifier="sonarmonitorincreaserange" maxlevel="6" categories="monitors" increaseontooltip="15">
+    <Price baseprice="2500" increaselow="+20%" increasehigh="+20%" />
+    <Sonar range="+15%" />
+    <Sprite texture="%ModDir%/CustomUpgradeIcons.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
+  </UpgradeModule>
+  <!-- Boolean upgrades fixed & now incorporated into the base game.
+  <UpgradeModule identifier="sonarmonitormineralscanner" maxlevel="1" categories="monitors">
+    <Price baseprice="5000" increaselow="+0%" increasehigh="+0%"/>
+    <Sonar hasmineralscanner="1" />
+    <Sprite texture="Mods/Meaningful Upgrades/CustomUpgradeIcons.png" sourcerect="0,128,128,128" origin="0.5,0.5"/>
+  </UpgradeModule>
+  -->
+  <!-- OXYGEN GENERATOR -->
+  <UpgradeModule identifier="increaseoxygengeneration" maxlevel="5" categories="oxygengenerators" increaseontooltip="10">
+    <Price baseprice="2000" increaselow="+20%" increasehigh="+20%" />
+    <OxygenGenerator generatedamount="+10%" />
+    <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="896,0,64,64" depth="0.75" origin="0.5,0.5"/>-->
+    <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="768,768,128,128" origin="0.5,0.5" />
+  </UpgradeModule>
+  <!-- BATTERIES -->
+  <UpgradeModule identifier="increasesupercapacitorefficiency" maxlevel="4" categories="supercapacitors" increaseontooltip="20">
+    <Price baseprice="2000" increaselow="+25%" increasehigh="+25%" />
+    <PowerContainer efficiency="+20%" />
+    <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,0,64,64" depth="0.75" origin="0.5,0.5"/>-->
+    <Sprite texture="%ModDir%/CustomUpgradeIcons.png" sourcerect="256,128,128,128" origin="0.5,0.5" />
+  </UpgradeModule>
+  <!-- TURRET -->
+  <UpgradeModule identifier="turretdecreasereloadtime" maxlevel="4" categories="weapons" increaseontooltip="10">
+    <Price baseprice="4000" increaselow="+25%" increasehigh="+25%" />
+    <Turret reload="-10%" />
+    <Sprite texture="%ModDir%/CustomUpgradeIcons.png" sourcerect="128,0,128,128" origin="0.5,0.5" />
+  </UpgradeModule>
+  <!-- DISCHARGE COILS -->
+  <UpgradeModule identifier="dischargecoildecreasepowerconsumption" maxlevel="5" categories="dischargecoils" increaseontooltip="10">
+    <Price baseprice="1500" increaselow="+20%" increasehigh="+20%" />
+    <ElectricalDischarger powerconsumption="-10%" />
+    <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="512,896,128,128" origin="0.5,0.5" />
+  </UpgradeModule>
+  <UpgradeModule identifier="dischargecoilincreaserange" maxlevel="5" categories="dischargecoils" increaseontooltip="20">
+    <Price baseprice="2500" increaselow="+20%" increasehigh="+20%" />
+    <ElectricalDischarger range="+20%" />
+    <Sprite texture="%ModDir%/CustomUpgradeIcons.png" sourcerect="256,0,128,128" origin="0.5,0.5" />
+  </UpgradeModule>
+  <!-- NOISE REDUCTION -->
+  <!-- Todo: Wait for this to work
+  <UpgradeModule identifier="decreasenoiseproduction" maxlevel="4" categories="engines,reactors,monitors">
+    <Price baseprice="2000" increaselow="+20%" increasehigh="+20%"/>
+    <aitarget maxsoundrange="-20%" maxsightrange="-7.5%" />
+    <Sprite texture="Mods/Meaningful Upgrades/CustomUpgradeIcons.png" sourcerect="384,0,128,128" origin="0.5,0.5"/>
+  </UpgradeModule> 
+   -->
+  <!-- SEARCHLIGHT -->
+  <UpgradeModule identifier="searchlightincreaseoffsetonselected" maxlevel="4" categories="searchlights" increaseontooltip="10">
+    <Price baseprice="1000" increaselow="+50%" increasehigh="+50%" />
+    <Item offsetonselectedmultiplier="+10%" />
+    <LightComponent range="+10%" />
+    <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="384,768,128,128" origin="0.5,0.5" />
+  </UpgradeModule>
+  <UpgradeModule identifier="searchlightincreaserotationlowskill" maxlevel="4" categories="searchlights" increaseontooltip="15">
+    <Price baseprice="1000" increaselow="+20%" increasehigh="+20%" />
+    <Turret rotationspeedlowskill="+15%" />
+    <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="256,768,128,128" origin="0.5,0.5" />
+  </UpgradeModule>
+  <!-- CAMERA-->
+  <UpgradeModule identifier="cameraincreaseoffsetonselected" maxlevel="4" categories="cameras" increaseontooltip="10">
+    <Price baseprice="1000" increaselow="+50%" increasehigh="+50%" />
+    <Item offsetonselectedmultiplier="+10%" />
+    <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="384,768,128,128" origin="0.5,0.5" />
+  </UpgradeModule>
+  <!-- MACHINE REPAIRS -->
+  <UpgradeModule identifier="increasecomponenthealth" maxlevel="5" categories="electricaldevices,mechanicaldevices" increaseontooltip="20">
+    <Price baseprice="2500" increaselow="+10%" increasehigh="+10%" />
+    <Item healthmultiplier="+0.2" />
+    <!-- <Repairable fixdurationlowskill="-20%" fixdurationhighskill="-20%"/> -->
+    <Sprite texture="%ModDir%/CustomUpgradeIcons.png" sourcerect="128,128,128,128" origin="0.5,0.5" />
+  </UpgradeModule>
+</UpgradeModules>

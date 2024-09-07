@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Cruel Accordion" steamworkshopid="2857036720" corepackage="false" modversion="1.0.4" gameversion="0.18.15.0" installtime="1664413462" expectedhash="E289E7A957477898F044FD7B15EAD4DD">
+  <Item file="%ModDir%/Items/accordion.xml" />
+  <Other file="%ModDir%/Items/Cruel Accordion Thesis.ogg" />
+</contentpackage>

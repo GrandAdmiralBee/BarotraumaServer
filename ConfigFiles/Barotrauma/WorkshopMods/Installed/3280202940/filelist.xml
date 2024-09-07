@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Archangel [HighFleet Conversion]" steamworkshopid="3280202940" corepackage="false" modversion="1.0.18" gameversion="1.5.9.1" installtime="1719918410" expectedhash="1DAEF54F77DF3E8E22085D71FC89C316">
+  <Submarine file="%ModDir%/Archangel [HF].sub" />
+</contentpackage>

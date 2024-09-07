@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+  <entityname.wrecklocator>Аварийный маяк</entityname.wrecklocator>
+  <entitydescription.wrecklocator>Маяк бедствия. Кто знает кто может принять его сигнал?</entitydescription.wrecklocator>
+  <label.turnoff>Выключить</label.turnoff>
+</infotexts>

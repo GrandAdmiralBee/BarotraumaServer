@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Harmonica-Free-Bird-solo" steamworkshopid="2903734381" corepackage="false" modversion="1.0.1" gameversion="0.20.15.0" installtime="1671415282" altnames="Harmonica-Free-Bird-solo" expectedhash="999F851AF76882335B6E5FE5584981D9">
+  <Item file="%ModDir%/harmonica/Harmonica.xml" />
+  <Other file="%ModDir%/harmonica/Free-Bird-Solo.ogg" />
+  <Other file="%ModDir%/harmonica/Misc.png" />
+</contentpackage>

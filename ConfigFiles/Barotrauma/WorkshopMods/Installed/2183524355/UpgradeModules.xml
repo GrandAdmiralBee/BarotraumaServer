@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Override>
+  <UpgradeModules>
+    <!-- WALLS -->
+    <UpgradeModule identifier="increasewallhealth" maxlevel="15" categories="walls" increaseontooltip="20">
+      <Price baseprice="2500" increaselow="+10%" increasehigh="+10%" />
+      <Structure maxhealth="+20%" crushdepth="+14%" />
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="640,640,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <!-- FABRICATOR -->
+    <UpgradeModule identifier="increasefabricationspeed" maxlevel="4" categories="fabricators" increaseontooltip="30">
+      <Price baseprice="2000" increaselow="+25%" increasehigh="+25%" />
+      <Fabricator fabricationspeed="+30%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,768,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="0,768,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <UpgradeModule identifier="decreasefabricationskillrequirement" maxlevel="5" categories="fabricators" increaseontooltip="15">
+      <Price baseprice="2000" increaselow="+25%" increasehigh="+25%" />
+      <Fabricator skillrequirementmultiplier="-15%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="128,448,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="128,768,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <!-- DECONSTRUCTOR -->
+    <UpgradeModule identifier="decreasedeconstructiontime" maxlevel="4" categories="deconstructors" increaseontooltip="20">
+      <Price baseprice="1500" increaselow="+20%" increasehigh="+20%" />
+      <Deconstructor deconstructionspeed="+20%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="448,192,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="768,640,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <!-- TURRET -->
+    <UpgradeModule identifier="turretdecreasepowerconsumption" maxlevel="5" categories="weapons" increaseontooltip="10">
+      <Price baseprice="1500" increaselow="+20%" increasehigh="+20%" />
+      <Turret powerconsumption="-10%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,384,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="512,896,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <UpgradeModule identifier="turretincreaserotationlowskill" maxlevel="5" categories="weapons" increaseontooltip="15">
+      <Price baseprice="2000" increaselow="+20%" increasehigh="+20%" />
+      <Turret rotationspeedlowskill="+15%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,384,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="256,768,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <UpgradeModule identifier="turretincreaseoffsetonselected" maxlevel="5" categories="weapons" increaseontooltip="7">
+      <Price baseprice="2500" increaselow="+20%" increasehigh="+20%" />
+      <Item offsetonselectedmultiplier="+7%" />
+      <LightComponent range="+16%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="768,320,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="384,768,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <!-- REACTOR -->
+    <UpgradeModule identifier="increasereactoroutput" maxlevel="5" categories="reactors" increaseontooltip="10">
+      <Price baseprice="2500" increaselow="+20%" increasehigh="+20%" />
+      <Reactor maxpoweroutput="+10%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,64,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="512,640,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <UpgradeModule identifier="decreasefuelconsumption" maxlevel="4" categories="reactors" increaseontooltip="-20">
+      <Price baseprice="2000" increaselow="+25%" increasehigh="+25%" />
+      <Reactor fuelconsumptionrate="-20%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="384,64,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="256,640,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <UpgradeModule identifier="increasemeltdowndelay" maxlevel="5" categories="reactors" increaseontooltip="20">
+      <Price baseprice="2000" increaselow="+10%" increasehigh="+10%" />
+      <Reactor meltdowndelay="+20%" fireDelay="+20%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="640,64,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="384,640,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <!-- PUMP -->
+    <UpgradeModule identifier="increasemaxpumpflow" maxlevel="5" categories="pumps" increaseontooltip="20">
+      <Price baseprice="2500" increaselow="+25%" increasehigh="+25%" />
+      <Pump maxflow="+20%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="896,256,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,768,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <!-- ENGINE -->
+    <UpgradeModule identifier="increaseenginemaxforce" maxlevel="10" categories="engines" increaseontooltip="12">
+      <Price baseprice="2500" increaselow="+20%" increasehigh="+20%" />
+      <Engine maxforce="+15%" />
+      <!-- Venture Moment -->
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="256,128,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,640,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <!-- BATTERIES -->
+    <UpgradeModule identifier="increasebatterycapacity" maxlevel="10" categories="batteries" increaseontooltip="20">
+      <Price baseprice="2500" increaselow="+10%" increasehigh="+10%" />
+      <PowerContainer capacity="+20%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,0,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="512,768,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <UpgradeModule identifier="increasesupercapacitorcapacity" maxlevel="5" categories="supercapacitors" increaseontooltip="20">
+      <Price baseprice="2500" increaselow="+20%" increasehigh="+20%" />
+      <PowerContainer capacity="+20%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="832,0,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="512,768,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <UpgradeModule identifier="increasebatteryrechargespeed" maxlevel="5" categories="supercapacitors,batteries" increaseontooltip="20">
+      <Price baseprice="2000" increaselow="+25%" increasehigh="+25%" />
+      <PowerContainer maxrechargespeed="+20%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,64,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="640,768,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <!-- JUNCTION BOXES -->
+    <UpgradeModule identifier="decreasefireprobability" maxlevel="5" categories="junctionboxes" increaseontooltip="18">
+      <Price baseprice="1000" increaselow="+25%" increasehigh="+25%" />
+      <PowerTransfer fireprobability="-18%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="63,320,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="128,640,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <UpgradeModule identifier="increaseovervoltageresistance" maxlevel="10" categories="junctionboxes" increaseontooltip="20">
+      <Price baseprice="2000" increaselow="+10%" increasehigh="+10%" />
+      <PowerTransfer overloadvoltage="+20%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="128,128,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="0,640,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <!-- POWER CONSUMPTION -->
+    <UpgradeModule identifier="decreasepowerconsumption" maxlevel="10" categories="fabricators,medicalfabricator,pumps,oxygengenerators,deconstructors,engines" increaseontooltip="5">
+      <Price baseprice="1000" increaselow="+25%" increasehigh="+25%" />
+      <Engine powerconsumption="-5%" />
+      <Fabricator powerconsumption="-6%" />
+      <OxygenGenerator powerconsumption="-6%" />
+      <Deconstructor powerconsumption="-6%" />
+      <Pump powerconsumption="-6%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,384,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="512,896,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <!-- MACHINE REPAIRS -->
+    <UpgradeModule identifier="increasedeteriorationdelay" maxlevel="10" categories="electricaldevices,mechanicaldevices" increaseontooltip="15">
+      <Price baseprice="2000" increaselow="+10%" increasehigh="+10%" />
+      <Repairable mindeteriorationdelay="+15%" maxdeteriorationdelay="+15%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="448,0,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="0,896,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <UpgradeModule identifier="decreasedeteriorationspeed" maxlevel="10" categories="electricaldevices,mechanicaldevices" increaseontooltip="8">
+      <Price baseprice="2500" increaselow="+10%" increasehigh="+10%" />
+      <Repairable deteriorationspeed="-8%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="512,0,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="128,896,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <UpgradeModule identifier="decreaselowskillfixduration" maxlevel="5" categories="electricaldevices,mechanicaldevices" increaseontooltip="12">
+      <Price baseprice="1000" increaselow="+25%" increasehigh="+25%" />
+      <Repairable fixdurationlowskill="-12%" fixdurationhighskill="-12%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="64,64,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="256,896,128,128" origin="0.5,0.5" />
+    </UpgradeModule>
+    <UpgradeModule identifier="decreaserequiredskilllevel" maxlevel="5" categories="electricaldevices,mechanicaldevices" increaseontooltip="12">
+      <Price baseprice="1500" increaselow="+25%" increasehigh="+25%" />
+      <Repairable skillrequirementmultiplier="-12%" />
+      <!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,0,64,64" depth="0.75" origin="0.5,0.5"/>-->
+      <Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="384,896,128,128" origin="0.5,0.5" />
+    </UpgradeModule>/
+	<!-- MONITORS --><UpgradeModule identifier="enablemineralscanner" maxlevel="1" categories="monitors" increaseontooltip="100"><Price baseprice="2000" increaselow="+100%" increasehigh="+200%" /><Sonar hasmineralscanner="True" /><!--<DecorativeSprite texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,0,64,64" depth="0.75" origin="0.5,0.5"/>--><Sprite texture="Content/UI/CampaignUIAtlas2.png" sourcerect="896,896,128,128" origin="0.5,0.5" /></UpgradeModule></UpgradeModules>
+</Override>

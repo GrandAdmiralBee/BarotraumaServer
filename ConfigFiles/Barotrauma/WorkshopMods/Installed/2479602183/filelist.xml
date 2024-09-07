@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Teardrop" steamworkshopid="2479602183" corepackage="false" modversion="1.0.0" gameversion="0.14.6.0" installtime="1624367283" altnames="Teardrop">
+  <Submarine file="%ModDir%/Teardrop.sub" />
+  <Submarine file="%ModDir%/TeardropShuttle.sub" />
+</contentpackage>

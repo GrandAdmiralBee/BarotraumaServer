@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ClientPermissions>  
+  <Client
+    name="BMO"
+    steamid="104474035"
+    permissions="All">
+  </Client>
+  <Client
+    name="МАТЬЕ БАЛ"
+    steamid="28867856"
+    permissions="All">
+  </Client>
+</ClientPermissions>

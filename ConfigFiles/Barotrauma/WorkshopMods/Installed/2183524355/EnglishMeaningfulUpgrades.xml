@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+  <upgradecategory.dischargecoils>Discharge Coils</upgradecategory.dischargecoils>
+  <upgradecategory.searchlights>Searchlights</upgradecategory.searchlights>
+  <upgradecategory.cameras>Cameras</upgradecategory.cameras>
+  <upgradename.sonarmonitorincreaserange>High-gain Sonar Array</upgradename.sonarmonitorincreaserange>
+  <upgradedescription.sonarmonitorincreaserange>Increase the view range of sonar systems.</upgradedescription.sonarmonitorincreaserange>
+  <upgradename.sonarmonitormineralscanner>Mineral Scanner Installation</upgradename.sonarmonitormineralscanner>
+  <upgradedescription.sonarmonitormineralscanner>Retrofitted detection array to provide mining scanner functionality. (Does not affect navigation terminal)</upgradedescription.sonarmonitormineralscanner>
+  <upgradename.increasesupercapacitorefficiency>Supercapacitor Efficiency</upgradename.increasesupercapacitorefficiency>
+  <upgradedescription.increasesupercapacitorefficiency>Reduces waste power draw.</upgradedescription.increasesupercapacitorefficiency>
+  <upgradename.turretdecreasereloadtime>Improved Autoloader</upgradename.turretdecreasereloadtime>
+  <upgradedescription.turretdecreasereloadtime>Increase the firing speed of turrets.</upgradedescription.turretdecreasereloadtime>
+  <upgradename.dischargecoilincreaserange>Discharge-Coil Amplifier</upgradename.dischargecoilincreaserange>
+  <upgradedescription.dischargecoilincreaserange>Increase the range of discharge coils.</upgradedescription.dischargecoilincreaserange>
+  <upgradename.dischargecoildecreasepowerconsumption>Energy Efficiency</upgradename.dischargecoildecreasepowerconsumption>
+  <upgradedescription.dischargecoildecreasepowerconsumption>Reduce power consumption.</upgradedescription.dischargecoildecreasepowerconsumption>
+  <upgradename.decreasenoiseproduction>Noise Reduction Systems</upgradename.decreasenoiseproduction>
+  <upgradedescription.decreasenoiseproduction>Reduce detectable noise produced by this device.</upgradedescription.decreasenoiseproduction>
+  <upgradename.searchlightincreaseoffsetonselected>Enhanced Periscopes</upgradename.searchlightincreaseoffsetonselected>
+  <upgradedescription.searchlightincreaseoffsetonselected>Increase the view range of all searchlights.</upgradedescription.searchlightincreaseoffsetonselected>
+  <upgradename.searchlightincreaserotationlowskill>Quicker Searchlights</upgradename.searchlightincreaserotationlowskill>
+  <upgradedescription.searchlightincreaserotationlowskill>Increase the rotation rate of all Searchlights when operated by insufficiently skilled crew.</upgradedescription.searchlightincreaserotationlowskill>
+  <upgradename.cameraincreaseoffsetonselected>Enhanced Periscopes</upgradename.cameraincreaseoffsetonselected>
+  <upgradedescription.cameraincreaseoffsetonselected>Increase the view range of all cameras.</upgradedescription.cameraincreaseoffsetonselected>
+  <upgradename.increasecomponenthealth>Equipment Hardening</upgradename.increasecomponenthealth>
+  <upgradedescription.increasecomponenthealth>Increase ship systems durability against combat damage.</upgradedescription.increasecomponenthealth>
+</infotexts>

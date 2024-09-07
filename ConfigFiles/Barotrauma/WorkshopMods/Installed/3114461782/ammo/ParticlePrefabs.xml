@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<prefabs>
+  <blacklasertn lifetime="1" startdelaymin="0" startdelaymax="0" angularvelocitymin="0" angularvelocitymax="0" startrotationmin="0" startrotationmax="0" rotatetodirection="False" drag="0" waterdrag="0" velocitychange="0,0" velocitychangewater="0,0" collisionradius="1" usecollision="False" deleteoncollision="False" friction="0.5" restitution="0.5" startsizemin="1,0.4" startsizemax="1,0.4" growtime="0.02" startcolor="255,255,255,180" endcolor="255,255,255,0" drawtarget="Both" drawontop="True" blendstate="Additive" loopanim="False" lifetimemin="0" sizechangemin="10,10" sizechangemax="10,10" middlecolor="255,255,255,255" usemiddlecolor="False" animduration="1" priority="10">
+    <sprite texture="%ModDir%/picture/whitelaser.png" sourcerect="32,0,1,32" origin="0.5,0.5" />
+  </blacklasertn>
+</prefabs>

@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Project 626 Theseus" steamworkshopid="3125940921" corepackage="false" modversion="1.0.33" gameversion="1.5.9.1" installtime="1720094593" expectedhash="17D56A46F53F1A75F32B3818E0A18292">
+  <Submarine file="%ModDir%/Project 626 Theseus.sub" />
+</contentpackage>

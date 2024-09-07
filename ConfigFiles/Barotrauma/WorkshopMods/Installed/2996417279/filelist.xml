@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="LEVIATHAN" steamworkshopid="2996417279" corepackage="false" modversion="1.21" gameversion="1.5.9.1" installtime="1722990263" expectedhash="6D0DF116FE0965218EEA52B577A537AE">
+  <Wreck file="%ModDir%/LTH2 - Part_Wrecked.sub" />
+  <Submarine file="%ModDir%/LTH2 - Part.sub" />
+  <Wreck file="%ModDir%/LTH2 -Leviathan_Wrecked.sub" />
+  <Item file="%ModDir%/Mod/containers.xml" />
+  <Submarine file="%ModDir%/LTH2 -Leviathan.sub" />
+</contentpackage>

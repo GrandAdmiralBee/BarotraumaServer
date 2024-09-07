@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Universall Load Device" identifier="unitloaddevice1" tags="cargocontainer" linkable="true" pickdistance="150" scale="0.4" waterproof="true">
+    <Sprite texture="%ModDir%/Mod/UnitLoadDevice.png" depth="0.8" sourcerect="0,0,567,446" origin="0.5,0.5" />
+    <DecorativeSprite texture="%ModDir%/Mod/UnitLoadDevice.png" depth="0.85" sourcerect="0,457,567,446" origin="0.5,0.5" />
+    <ItemContainer capacity="12" maxstacksize="10" canbeselected="true" hideitems="false" itempos="120,-364" iteminterval="150,80" itemsperrow="3" slotsperrow="4" msg="ItemMsgInteractSelect" containedspritedepths="0.81,0.82,0.81,0.82,0.81,0.82,0.81,0.82,0.81,0.82,0.81,0.82">
+      <GuiFrame relativesize="0.25,0.3" anchor="Center" style="ItemUI" />
+      <Containable items="crate" />
+      <Containable items="ammobox" />
+    </ItemContainer>
+  </Item>
+  <Item name="Ammo Load Device" identifier="unitloaddevice2" tags="ammocontainer" linkable="true" pickdistance="150" scale="0.5" waterproof="false">
+    <Sprite texture="%ModDir%/Mod/UnitLoadDevice.png" depth="0.8" sourcerect="0,0,567,446" origin="0.5,0.5" />
+    <DecorativeSprite texture="%ModDir%/Mod/UnitLoadDevice.png" depth="0.85" sourcerect="0,457,567,446" origin="0.5,0.5" />
+    <ItemContainer capacity="12" maxstacksize="10" canbeselected="true" hideitems="false" itempos="120,-364" iteminterval="150,80" itemsperrow="3" slotsperrow="4" msg="ItemMsgInteractSelect" containedspritedepths="0.81,0.82,0.81,0.82,0.81,0.82,0.81,0.82,0.81,0.82,0.81,0.82">
+      <GuiFrame relativesize="0.25,0.3" anchor="Center" style="ItemUI" />
+      <Containable items="ammobox" />
+    </ItemContainer>
+  </Item>
+</Items>

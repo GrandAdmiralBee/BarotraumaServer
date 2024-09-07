@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Taehoon" steamworkshopid="2413909645" corepackage="false" modversion="1.0.0" gameversion="0.12.0.3" installtime="1616936354" altnames="Taehoon">
+  <Submarine file="%ModDir%/Taehoon.sub" />
+</contentpackage>

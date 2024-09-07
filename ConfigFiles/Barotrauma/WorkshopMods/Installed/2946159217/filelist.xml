@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Privateer" steamworkshopid="2946159217" corepackage="false" modversion="1.0.13" gameversion="1.0.8.0" installtime="1679490705" expectedhash="07006D5961E00FA7FFC6F946B7EF30F2">
+  <Submarine file="%ModDir%/Privateer.sub" />
+</contentpackage>

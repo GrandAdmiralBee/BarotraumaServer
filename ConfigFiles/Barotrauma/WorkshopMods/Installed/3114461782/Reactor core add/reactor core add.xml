@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Core cir" identifier="reactor_core_add" category="Alien" linkable="true" scale="0.5">
+    <Sprite texture="%ModDir%/Reactor core add/Alien_sphere.png" depth="0.84" sourcerect="21,1367,395,395" origin="0.5,0.5" />
+    <DecorativeSprite texture="Content/Items/Alien/AlienRuins_Items.png" sourcerect="226,700,301,296" depth="0.78" origin="0.5,0.5" offset="0,-375" />
+    <LightComponent range="600" lightcolor="140,197,180,111" IsOn="true" castshadows="true" allowingameediting="false" flicker="0.2" flickerspeed="5.0" pulsefrequency="0.2" pulseamount="0.4">
+      <sprite texture="Content/Items/Alien/AlienRuins_Items.png" sourcerect="1075,1367,395,395" origin="0.5,0.5" />
+      <StatusEffect type="OnActive" target="This">
+        <sound file="%ModDir%/Reactor core add/Nor Reactor Sound effect.ogg" range="1000.0" loop="true" dontmuffle="true" />
+      </StatusEffect>
+    </LightComponent>
+    <ConnectionPanel canbeselected="true" hudpriority="10">
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <input name="toggle" displayname="connection.togglestate" />
+      <input name="set_state" displayname="connection.setstate" />
+      <output name="state_out" displayname="connection.stateout" fallbackdisplayname="connection.signalout" />
+      <input name="set_color" displayname="connection.setcolor" />
+    </ConnectionPanel>
+  </Item>
+</Items>

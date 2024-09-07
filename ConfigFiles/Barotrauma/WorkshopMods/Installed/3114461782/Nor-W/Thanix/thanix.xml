@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+  <Item name="Thanix" description="" identifier="tanix" Tags="turret" category="Machine,Weapon" interactthroughwalls="true" Scale="0.5" interactdistance="10" spritecolor="1.0,1.0,1.0,1.0" focusonselected="true" offsetonselected="900" linkable="true" allowedlinks="pulselaserequipment">
+    <Sprite texture="%ModDir%/Nor-W/Loaders.png" depth="0.01" sourcerect="0,0,256,256" canflipy="false" />
+    <MinimapIcon name="Command_Weapons_Pulselaser" texture="Content/UI/CommandUIAtlas.png" sourcerect="384,768,128,128" />
+    <StaticBody width="80" radius="80" />
+    <Turret maxchargetime="1.0" minchargetime="0.1" firingrotationspeedmodifier="0.3" canbeselected="false" characterusable="false" usefiringoffsetformuzzleflash="true" linkable="true" barrelpos="126,84" firingoffset="-10,-220" rotationlimits="180,360" powerconsumption="1400.0" showchargeindicator="true" showprojectileindicator="true" recoildistance="50" reload="0.25" springstiffnesslowskill="2" springstiffnesshighskill="50" springdampinglowskill="0.5" springdampinghighskill="10" rotationspeedlowskill="1" rotationspeedhighskill="8">
+      <sound file="%ModDir%/Nor-W/Thanix/thanix_beam_1.ogg" range="12000" type="OnUse" />
+      <WeaponIndicator texture="Content/UI/WeaponUI.png" sourcerect="500,913,66,32" origin="0.227, 0.5" />
+      <RailSprite texture="%ModDir%/Nor-W/Turrets.png" depth="0.011" sourcerect="904,592,120,287" origin="0.5, 0.7" />
+      <BarrelSprite texture="%ModDir%/Nor-W/Turrets.png" depth="0.012" sourcerect="779,592,125,333" origin="0.55, 0.8" />
+      <ChargeSprite chargetarget="25, 15" texture="%ModDir%/Nor-W/Turrets.png" depth="0.01" sourcerect="556,687,80,155" origin="1.0, 1.6" />
+      <ChargeSprite chargetarget="-25, 15" texture="%ModDir%/Nor-W/Turrets.png" depth="0.01" sourcerect="636,687,80,155" origin="0.2, 1.6" />
+      <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,0,256,256" />
+      <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,0,256,256" />
+      <ChargeSound file="%ModDir%/Nor-W/Thanix/thanix_chargeUp.ogg" range="10000" />
+      <MoveSound file="Content/Items/Weapons/RailgunLoop.ogg" />
+      <StartMoveSound file="Content/Items/Weapons/RailgunStart.ogg" />
+      <EndMoveSound file="Content/Items/Weapons/RailgunStop.ogg" />
+      <RequiredSkill identifier="weapons" level="50" />
+      <LightComponent LightColor="1.0,0.8,0.8,1.0" Flicker="0.0" range="2500" IsOn="true" drawbehindsubs="true" ignorecontinuoustoggle="true">
+        <LightTexture texture="Content/Lights/lightcone.png" origin="0.0, 0.5" size="1.0,1.0" />
+      </LightComponent>
+      <StatusEffect type="OnUse" target="This">
+        <Explosion range="12000.0" structuredamage="0" force="0.0" camerashake="30.0" flames="false" smoke="false" sparks="false" underwaterbubble="false" flashcolor="207,255,253,250" />
+      </StatusEffect>
+      <Upgrade gameversion="0.15.12.0" powerconsumption="1400.0" />
+    </Turret>
+    <aitarget maxsightrange="3000" maxsoundrange="0" fadeouttime="5" />
+    <ConnectionPanel selectkey="Action" canbeselected="true" msg="ItemMsgRewireScrewdriver" hudpriority="10">
+      <GuiFrame relativesize="0.2,0.32" minsize="400,350" maxsize="480,420" anchor="Center" style="ConnectionPanel" />
+      <RequiredItem items="screwdriver" type="Equipped" />
+      <input name="power_in" displayname="connection.powerin" />
+      <input name="position_in" displayname="connection.turretaimingin" />
+      <input name="trigger_in" displayname="connection.turrettriggerin" />
+      <input name="toggle_light" displayname="connection.togglelight" />
+      <input name="set_light" displayname="connection.setlight" />
+    </ConnectionPanel>
+  </Item>
+</Items>

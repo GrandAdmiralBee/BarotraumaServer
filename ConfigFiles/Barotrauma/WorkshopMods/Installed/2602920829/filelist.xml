@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="[VH] The Iroh" steamworkshopid="2602920829" corepackage="false" modversion="1.0.28" gameversion="1.2.7.0" installtime="1704470406" expectedhash="6BF975469B4C326D34CA7AEEB324E5F8">
-  <Submarine file="%ModDir%/[VH] The Iroh - Old Version.sub" />
-  <Submarine file="%ModDir%/[VH] The Iroh.sub" />
-</contentpackage>

@@ -1,6 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<infotexts language="Simplified Chinese" nowhitespace="true" translatedname="中文(简体)">
-  <entityname.wrecklocator>沉船信标</entityname.wrecklocator>
-  <entitydescription.wrecklocator>标准的声呐信标，但是以开启状态出现在沉船上。</entitydescription.wrecklocator>
-  <label.turnoff>关闭</label.turnoff>
-</infotexts>

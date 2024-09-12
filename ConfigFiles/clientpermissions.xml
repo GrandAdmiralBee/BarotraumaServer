@@ -2,12 +2,16 @@
 <ClientPermissions>  
   <Client
     name="BMO"
-    steamid="104474035"
-    permissions="All">
+    endpoint="127.0.0.1"
+	  permissions="All">
   </Client>
   <Client
-    name="МАТЬЕ БАЛ"
-    steamid="28867856"
+    name="РАСХИТИТЕЛЬ ГРИБНИЦ"
+	endpoint= "192.168.196.157"
     permissions="All">
+	  <command
+      name="debugevent" />
+	  <command
+      name="enablecheats" />
   </Client>
 </ClientPermissions>

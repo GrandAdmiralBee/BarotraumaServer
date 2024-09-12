@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Coffin" steamworkshopid="2912530417" corepackage="false" modversion="1.0.6" gameversion="1.0.8.0" installtime="1680727034" altnames="Coffin" expectedhash="229D8A937191C1B9B160B4355013E872">
-  <Submarine file="%ModDir%/Coffin.sub" />
-</contentpackage>

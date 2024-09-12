@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Flying Duntchman" steamworkshopid="2853447944" corepackage="false" modversion="1.0.4" gameversion="0.21.6.0" installtime="1676985720" expectedhash="E03D5DDD70D5FF5951BD8505B8E7B156">
-  <Submarine file="%ModDir%/Flying Duntchman.sub" />
-</contentpackage>

@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Epic accordion" steamworkshopid="2876860342" corepackage="false" modversion="1.0.9" gameversion="0.19.14.0" installtime="1667383867" expectedhash="B60809CCFF6C1D351B7AFA6C38C69489">
-  <Item file="%ModDir%/CustomAccordion.xml" />
-  <Talents file="%ModDir%/TalentsMechanic.xml" />
-</contentpackage>

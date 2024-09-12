@@ -1,5 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="The Peregrine" steamworkshopid="2658314680" corepackage="false" modversion="1.0.7" gameversion="1.0.21.0" installtime="1689584711" expectedhash="C609BE09809C5C42373DAAFF05930A19">
-  <Submarine file="%ModDir%/Peregrine.sub" />
-  <Submarine file="%ModDir%/Peregrine-C.sub" />
-</contentpackage>

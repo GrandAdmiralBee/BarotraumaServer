@@ -1,4 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Nova VX" steamworkshopid="2259833357" corepackage="false" modversion="1.0.0" gameversion="1.0.21.0" installtime="1691217121" expectedhash="724A2A878608595F96A0DDE391D7FC6F">
-  <Submarine file="%ModDir%/Nova VX.sub" />
-</contentpackage>

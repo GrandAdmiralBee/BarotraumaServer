@@ -1,36 +1,48 @@
 use regex::Regex;
 use std::env;
+use std::process::Command;
+use log::{info, warn, error};
 
 static MODS_DEST_DIR: &str = r#"LocalMods/"#;
 
 fn main() {
-    make_barotrauma_symlink();
-    make_player_config_file();
+    //make_barotrauma_symlink();
+    //make_player_config_file();
+    run_barotrauma_docker_server();
+    loop {
+        
+    }
+}
+
+fn run_barotrauma_docker_server(){
+    if cfg!(target_os = "windows") {
+        let _ = Command::new("cmd")
+            .arg("/C")
+            .arg("docker container remove Barotrauma")
+            .spawn();
+
+        Command::new("cmd")
+            .arg("/C")
+            .arg(r#"docker run --net=host --mount type=bind,src=ConfigFiles,dst=/home/steam/ConfigFiles --mount type=bind,src=Barotrauma,dst=/home/steam/.local/share/Daedalic\ Entertainment\ GmbH/Barotrauma --name=Barotrauma -it barotrauma_server bash"#)
+            .spawn().unwrap();
+    } else {
+        Command::new("sh")
+            .arg("-c")
+            .arg("echo hello")
+            .spawn().unwrap();
+    }
 }
 
 pub fn make_barotrauma_symlink() {
-    let vars = env::vars();
 
-    let mut data_dirs = String::new();
-    for var in vars.into_iter() {
-        if var.0 == "XDG_DATA_DIRS" {
-            data_dirs = var.1;
-        }
-    }
-
-    let regex = Regex::new(r#"(?<data>\/home\/.+\/\.local\/share)"#).unwrap();
-    let caps = regex.captures(&data_dirs).unwrap();
-
-    let dir = &caps["data"];
+    // Get Barotrauma appdata folder
+    let bara_data_dir = get_barotrauma_data_dir();
 
     // Symlink barotrauma Multiplayer amd Installed Mods dir
     let bara_data_symlink = std::path::Path::new("Barotrauma");
     if bara_data_symlink.exists() {
-        println!("Barotrauma folder already exists, skipping...");
+        println!("Barotrauma data dymlink already exists, skipping...");
     } else {
-        let mut bara_data_dir = dir.to_string();
-        bara_data_dir.push_str(r#"/Daedalic Entertainment GmbH/Barotrauma"#);
-
         let bara_data_path = std::path::Path::new(&bara_data_dir);
 
         if !bara_data_path.exists() {
@@ -46,6 +58,40 @@ pub fn make_barotrauma_symlink() {
             }
         }
     }
+}
+
+fn get_barotrauma_data_dir() -> String{
+    let vars = env::vars();
+    let target_os = TargetOs::new();
+
+    let mut data_dir = String::new();
+    for var in vars.into_iter() {
+        match target_os{
+            TargetOs::Win => {
+                if var.0 == "APPDATA" {
+                    let appdata_roaming = std::path::Path::new(&var.1);
+                    data_dir = appdata_roaming.parent().unwrap().to_str().unwrap().to_string();
+
+                    data_dir.push_str(r#"\Local"#);
+                    data_dir.push_str(r#"\Daedalic Entertainment GmbH\Barotrauma"#);
+                    break;
+                }
+            },
+            TargetOs::Unix => {
+                if var.0 == "XDG_DATA_DIRS" {
+                    let data_dirs = var.1;
+                    let regex = Regex::new(r#"(?<data>\/home\/.+\/\.local\/share)"#).unwrap();
+                    let caps = regex.captures(&data_dirs).unwrap();
+
+                    data_dir = caps["data"].to_string();
+                    data_dir.push_str(r#"/Daedalic Entertainment GmbH/Barotrauma"#);
+                    break;
+                }
+            }
+        }
+    }
+
+    data_dir
 }
 
 pub fn make_player_config_file() {
